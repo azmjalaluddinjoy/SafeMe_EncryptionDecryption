@@ -1,0 +1,255 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+main{
+    width: 100%;
+    height: auto;
+    background: #34495E;
+    position: absolute;
+}
+
+.content-all {
+    width: 1000px;
+    background: #17A086;
+    margin: auto;
+    margin-top: 80px;
+        height: 601px;
+    
+}
+header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    left: 4px;
+    top: 0;
+    background: #19BC9D;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .menu{
+    width: 4000px;
+
+}
+
+.a-content {
+    width: calc(100% - 330px);
+    float: right;
+    display: inline-block;
+    background-color: #19bc9d;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+
+}
+.mini-image {
+    width: 100%;
+}
+.mini-image img {
+    width: 100%;
+}
+.menu {
+    position: fixed;
+    top: 60px;
+    width: 250px;
+    height: 100vh;
+    background: #2D3E50;
+    transition: all 300ms;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+   
+}
+
+.newtable{
+    margin-left:35%;
+}
+
+.datashow{
+    margin-left: 35%;
+    padding-top: 12%;
+    color: #fff;
+    text-align: center;
+}
+.datashowCryptograph{
+    margin-left: 35%;
+    padding-top: 4%;
+    color: #fff;
+    text-align: center;
+}
+
+.datashowHistory{
+    margin-left: 25%;
+    padding-top: 4%;
+    color: #fff;
+    border: solid 1px #0c0c0c;
+    background: #05866d;
+    border-collapse:collapse;
+    text-align: center;
+}
+
+.newdata{
+        border: 1px solid #000;
+    padding: 1% 3px;
+
+}
+.newdata2{
+        border: 2px solid #000;
+    padding: 1% 142px;
+    font-size: 19px;
+    text-align: center;
+}
+.newdata1{
+    border: 2px solid #000;
+    padding: -1% 151px;
+    background:rgba(0, 0, 0, 0.5);
+}
+.menu ul {
+    padding: 0;
+    margin-top: 20px;
+}
+.menu li{
+    list-style: none;
+    padding: 16px;
+    color: white;
+    cursor: pointer;
+    transition: all 300ms;
+    display: block;
+  
+}
+.menu li.hover{
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 76px;
+    background: #737070;
+                 }
+.menu li .active {
+    background: #c3bdbd;
+    color: #3c3535;
+    text-decoration: none;
+    padding: 7px 81px;
+    border: navajowhite;
+    border-radius: 18px;
+    font-size: 18px;    
+    cursor:pointer;        
+}
+.navmenu{
+     background: #05866d;
+     padding: 6px 85px;
+     border-radius: 15px;
+     font-size: 17px;
+     color: #fff;
+     border: none;
+     cursor: pointer;
+     }
+.navmenu:hover{
+     background: #808080;
+               
+}
+
+
+
+article{
+    padding: 40px;
+}
+
+.content-all label{
+    position: fixed;
+    width: 100%;
+    max-width: 1000px;
+    top: 14px;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.content-all h2{
+    position: fixed;
+    width: 100%;
+    max-width: 1000px;
+    top: 0px;
+    font-size: 26px;
+    text-align: right;
+    color: white;
+    left: 21px;
+}
+.box2{
+    width:700px;
+    margin-left: 31%;
+}
+.box1 img{
+        width: 21%;
+        padding: 5%;
+        float: left;
+        margin-left: -1%;
+        position:relative
+}
+article h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+
+article img{
+    width: 100%;
+    border: 4px solid white;
+    margin-top: 40px;
+}
+
+article .imageContact{
+    width: 37%;
+    border: 4px solid white;
+    margin-top: 40px;
+}
+article .para2{
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    
+}
+
+article-all .gridview {
+        font-family:"arial";
+        background-color:#FFFFFF;
+        width: 100%;
+        font-size: small;
+        border: black;
+}
+
+
+article-all .GridPager a, .GridPager span
+    {
+        display: block;
+        height: 15px;
+        width: 15px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+    }
+article-all .GridPager a
+    {
+        background-color: #f5f5f5;
+        color: #969696;
+        border: 1px solid #969696;
+    }
+article-all .GridPager span
+    {
+        background-color: #A1DCF2;
+        color: #000;
+        border: 1px solid #3AC0F2;
+    }
+
+

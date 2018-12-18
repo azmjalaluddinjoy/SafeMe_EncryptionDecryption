@@ -1,0 +1,55 @@
+﻿.row {
+    height: 600px;
+    background-color: #2eec71;
+    width: 700px;
+}
+
+.pic_base{
+    height: 30%;
+    background-color: #34495e;
+    background: url(Images/JOY_Champion_DIU_AppContest.jpg);
+    background-size: cover;
+
+}
+
+#profile_pic{
+    border-radius: 100%;
+    border: 2px solid #34495e;
+    box-shadow: 0 2px 2px black;
+    box-sizing: border-box;
+    position:absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+#title{
+    position: absolute;
+    font-family: Verdana;
+    margin-left: 360px;
+    margin-top: 100px;
+    color: #ecf0f1;
+    font-family: 'Mesquite Std', serif;
+}
+
+#profession{
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 70px;
+    font-weight: bold;
+    font-family: 'Bitter', serif;
+
+
+}
+#content{
+    padding-top: 120px; 
+    padding-left: 10px;
+
+}
+.social{
+    list-style: none;
+    position: absolute;
+}
+.social li{
+    display: inline;
+    padding: 20px;
+}
